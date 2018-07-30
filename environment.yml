@@ -1,4 +1,4 @@
-name: WebScrapping
+name: WebScraping
 channels:
   - defaults
 dependencies:
