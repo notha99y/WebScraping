@@ -11,8 +11,8 @@ credit: Traversy Media
 from bs4 import BeautifulSoup
 import os
 
-data_path = os.path.join(os.getcwd(), 'raw','data')
-html_doc = open(os.path.join(data_path,os.listdir(data_path)[0]), 'r')
+data_path = os.path.join(os.getcwd(), 'raw', 'data')
+html_doc = open(os.path.join(data_path, os.listdir(data_path)[0]), 'r')
 
 soup = BeautifulSoup(html_doc, 'html.parser')
 
