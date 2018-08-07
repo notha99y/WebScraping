@@ -12,3 +12,5 @@ dependencies:
   - pillow
   - bokeh
   - scipy=1.0.0
+  - pymongo
+  - scrapy==1.0.3

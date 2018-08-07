@@ -6,9 +6,7 @@ Tutorial from: https://realpython.com/python-web-scraping-practical-introduction
 import os
 from requests import get
 from requests.exceptions import RequestException
-# ensures that any network resources are freed when they go out of scope
-# in that with block
-from contextlib import closing
+from contextlib import closing # ensures that any network resources are freed when they go out of scope in that with block
 from bs4 import BeautifulSoup
 from csv import writer
 from utils import make_dir

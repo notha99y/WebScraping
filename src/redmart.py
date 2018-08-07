@@ -33,10 +33,10 @@ def main(output_filepath):
     startTime = time.time()
 
     r = requests.get(
-        'https://api.redmart.com/{}/catalog/search?extent=0&depth=1'.format(VERSION))
+        'https://api.redmart.com/{}/catalog/search?extent=0&depth=1'.format(VERSION)) # gives the category
     data = json.loads(r.text)  # similarily can use data = r.json()
 
-    uri = [x['uri'] for x in data['categories']]
+    # uri = [x['uri'] for x in data['categories']]
     uriDict = {}
     for x in data['categories']:
         for y in x['children']:
