@@ -17,7 +17,7 @@ browser = webdriver.Chrome(DRIVER)
 browser.get(url)
 searchBar = browser.find_element_by_id('lst-ib')
 # searchBar.send_keys('Cool places to visit in Meteora')
-searchBar.send_keys("Best places to have chocolates in Singapore")
+searchBar.send_keys("Singapore Temperature")
 time.sleep(1)
 searchBar.send_keys(Keys.ENTER)
 
