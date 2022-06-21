@@ -27,7 +27,7 @@ MarkupSafe==1.0
 matplotlib==2.2.2
 mkl-fft==1.0.4
 mkl-random==1.0.1
-numpy==1.15.0
+numpy==1.22.0
 olefile==0.45.1
 packaging==17.1
 pandas==0.23.4
